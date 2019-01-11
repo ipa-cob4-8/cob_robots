@@ -57,6 +57,8 @@ group17:
     [init,init],
     [recover,recover],
     [front,move,front],
+    [front_down,move,front_down],
+    [front_up,move,front_up],
     [back,move,back],
     [left,move,left],
     [right,move,right]]
@@ -68,6 +70,7 @@ group18:
     [recover,recover],
     [front,move,front],
     [front_down,move,front_down],
+    [front_up,move,front_up],
     [back,move,back],
     [left,move,left],
     [right,move,right],
