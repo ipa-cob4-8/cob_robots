@@ -1,1 +1,2 @@
-../../cob4/script_server/base_configurations.yaml
+service_ns: /base/driver
+topic_name: /base/twist_mux/command_script_server

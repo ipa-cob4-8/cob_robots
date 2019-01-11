@@ -7,6 +7,17 @@ catkin_python_setup()
 
 catkin_package()
 
-install(PROGRAMS scripts/trigger_srvs.py
-     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+set(robotlist
+    cob4-5
+    cob4-7
+    cob4-8
+    cob4-10
+    cob4-13
+    cob4-16
 )
+
+foreach(robot ${robotlist})
+    install(PROGRAMS scripts/trigger_srvs_${robot}.py
+         DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+    )
+endforeach()

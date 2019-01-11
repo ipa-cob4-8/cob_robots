@@ -1,1 +1,2 @@
-../../cob4/config/ntp_monitor.yaml
+offset: 5000         #us
+error_offset: 25000  #us

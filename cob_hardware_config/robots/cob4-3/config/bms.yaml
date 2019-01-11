@@ -78,6 +78,7 @@ diagnostics:
         factor: 0.1
         unit: "Celsius"
 
+
 topics: ["current", "voltage", "remaining_capacity", "full_charge_capacity", "temperature"]
 
 can_device: "can1"

@@ -1,3 +1,4 @@
+host: 10.4.18.99
 port: "9100" # alternative syntax: !!str 9100
 odometry_timeout: 1.0
 threshold_linear_slow: 0.4
@@ -11,4 +12,3 @@ footprint_angular_slow: [[0.4,0.4], [-0.4,0.4], [-0.4,-0.4], [0.4,-0.4]]
 footprint_angular_fast: [[0.5,0.5], [-0.5,0.5], [-0.5,-0.5], [0.5,-0.5]]
 footprint_linear_slow: [[0.6,0.4], [-0.4,0.4], [-0.4,-0.4], [0.6,-0.4]]
 footprint_linear_fast: [[0.8,0.4], [-0.4,0.4], [-0.4,-0.4], [0.8,-0.4]]
-
